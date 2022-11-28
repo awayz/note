@@ -2,11 +2,6 @@
 title: Your first seed
 ---
 
-### Welcome!
-
-This is your first note. You'll find it in the [`notes/`](https://github.com/maximevaillancourt/digital-garden-jekyll-template/tree/master/_notes) directory. 
-
-[[qq 被风控的解决方案]]
 ### Link syntax
 
 To link to another note, you can use multiple syntaxes. The following four use the "double-bracket" notation ([view the Markdown source file](https://github.com/maximevaillancourt/digital-garden-jekyll-template/blob/master/_notes/your-first-note.md#link-syntax) to see the underlying syntax).
@@ -17,8 +12,6 @@ To link to another note, you can use multiple syntaxes. The following four use t
 - Using the note's filename, with a label: [[cats|link to the note about cats using the note's filename]]
 
 You can organize notes in subdirectories and link them normally. For example, the links above all point to the `_notes/animals/cats.md` file. Here's another example: [[tigers]].
-
-Non-latin languages are supported: [[안녕하세요]]; so are accents/diacritics: [[bon appétit!]]
 
 Dashes and underscores in file names are supported, and may be omitted in the bracket link syntax. As an example, the `your-first-note.md` file can be linked to with [[your first note]] or [[your-first-note]], or even [[yOuR-FiRsT Note]].
 
@@ -32,14 +25,6 @@ Of course, you can also link to external websites, like this: [this is a link to
 
 [^1]: This is a footnote. For more information about using footnotes, check out the [Markdown Guide](https://www.markdownguide.org/extended-syntax/#footnotes).
 [^2]: This is another footnote that links to the note about [[cats]]. You may also point to [[notes that do not exist]] if you wish.
-
-### Tweet embedding
-
-Note: This behavior is disabled by default for privacy reasons. See "Site configuration" section below to enable it.
-
-You may include a tweet URL on its own line (like below), and it would be replaced with an official Twitter embed if the site configuration demands it.
-
-https://twitter.com/jack/status/20
 
 ### Media embedding
 
